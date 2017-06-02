@@ -1,0 +1,61 @@
+<html>
+<head>
+<title>Hacker Devs</title>
+<meta name="description" content="hacking problems and developing solutions">
+<style>
+body{
+background-image:url('hacker-background.jpg'); 
+}
+.content{
+padding: 5%; 
+color: white;
+
+z-index:1;
+}
+.overlay{
+background-color:black;
+opacity:.40;
+position:absolute;
+top:0;
+left:0;
+height:100%;
+width:100%;
+z-index:-1;
+}
+</style>
+
+</head>
+
+<body>
+<div class="overlay"></div>
+<div class="content">
+
+<img src="logo.png" />
+<h1>hacking problems and developing solutions</h1>
+<h2>&nbsp;Hacker: highly skilled problem solver; innovative free thinker obsessed with how things work; adherent to programming subculture; well rounded overall technology expert</h2>
+<h2>&nbsp;Developer: professional software programmer and deliverer of custom technology in accordance with best practices, software design principles and strategic goals</h2>
+<h2>What we do</h2>
+<ul>
+<li>custom software development</li>
+<li>business technology consulting</li>
+<li>business strategy consulting</li>
+<li>technology infrastructure and security</li>
+<li>technology support</li>
+<li>third party integrations, CRMs, analytics</li>
+</ul>
+
+<h2>Submit an inquiry</h2>
+<form action="http://api.hackerdevs.com/data/inquiry" method="post">
+<textarea name="WhoAreYou" placeholder="Who are you?" style="height:100px; width:100%; font-size: 20px;" required></textarea>
+<br /><br />
+<textarea name="WhatDoYouWant" placeholder="What do you want?"style="height:100px; width:100%; font-size: 20px;" required></textarea>
+<br /><br />
+<textarea name="ContactInfo" placeholder="How can we contact you?"style="height:100px; width:100%; font-size: 20px;" required></textarea>
+<br /><br />
+<input type="submit" value="Submit" style="height:50px; width:100px;" />
+</form>
+
+</div>
+
+</body>
+</html>
