@@ -36,7 +36,7 @@ namespace WebAPI
         {
             SqlConnection cn = new SqlConnection(HackerDevsConnectionstring());
             cn.Open();
-            SqlCommand cm = new SqlCommand(sql.Replace("'", "''"), cn);
+            SqlCommand cm = new SqlCommand(sql, cn);
             cm.ExecuteNonQuery();
             cn.Close();
         }

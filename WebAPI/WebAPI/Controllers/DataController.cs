@@ -15,14 +15,21 @@ namespace WebAPI.Controllers
         [HttpPost]
         public ActionResult Inquiry()
         {
-            Dictionary<string, string> dictionary = new Dictionary<string, string>();
-            foreach (string key in HttpContext.Request.Form.Keys)
-                dictionary.Add(key, HttpContext.Request.Form[key]);
-            string data = Newtonsoft.Json.JsonConvert.SerializeObject(dictionary);
+            try
+            {
+                Dictionary<string, string> dictionary = new Dictionary<string, string>();
+                foreach (string key in HttpContext.Request.Form.Keys)
+                    dictionary.Add(key, HttpContext.Request.Form[key].ToString().Replace("'", "''"));
+                string data = Newtonsoft.Json.JsonConvert.SerializeObject(dictionary);
 
-            Core.AddInquiry(data, Request.HttpContext.Connection.RemoteIpAddress.ToString());
+                Core.AddInquiry(data, Request.HttpContext.Connection.RemoteIpAddress.ToString());
 
-            return Redirect("http://www.hackerdevs.com/inquiry.html");
+                return Redirect("http://www.hackerdevs.com/inquiry.html");
+            }
+            catch (Exception ex)
+            {
+                return Json(ex.Message);
+            }
         }
         [HttpGet]
         public string Test()
