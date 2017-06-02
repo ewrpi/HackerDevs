@@ -7,3 +7,12 @@ C:\Code\API\WebAPI\WebAPI\obj\Debug\netcoreapp1.1\WebAPI.AssemblyInfo.cs
 C:\Code\API\WebAPI\WebAPI\bin\Debug\netcoreapp1.1\WebAPI.pdb
 C:\Code\API\WebAPI\WebAPI\obj\Debug\netcoreapp1.1\WebAPI.dll
 C:\Code\API\WebAPI\WebAPI\obj\Debug\netcoreapp1.1\WebAPI.pdb
+C:\Code\HackerDevs\WebAPI\WebAPI\bin\Debug\netcoreapp1.1\WebAPI.deps.json
+C:\Code\HackerDevs\WebAPI\WebAPI\bin\Debug\netcoreapp1.1\WebAPI.runtimeconfig.json
+C:\Code\HackerDevs\WebAPI\WebAPI\bin\Debug\netcoreapp1.1\WebAPI.runtimeconfig.dev.json
+C:\Code\HackerDevs\WebAPI\WebAPI\bin\Debug\netcoreapp1.1\WebAPI.dll
+C:\Code\HackerDevs\WebAPI\WebAPI\bin\Debug\netcoreapp1.1\WebAPI.pdb
+C:\Code\HackerDevs\WebAPI\WebAPI\obj\Debug\netcoreapp1.1\WebAPI.csprojResolveAssemblyReference.cache
+C:\Code\HackerDevs\WebAPI\WebAPI\obj\Debug\netcoreapp1.1\WebAPI.AssemblyInfo.cs
+C:\Code\HackerDevs\WebAPI\WebAPI\obj\Debug\netcoreapp1.1\WebAPI.dll
+C:\Code\HackerDevs\WebAPI\WebAPI\obj\Debug\netcoreapp1.1\WebAPI.pdb
