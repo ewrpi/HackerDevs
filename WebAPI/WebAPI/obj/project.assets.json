@@ -10805,10 +10805,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Code\\HackerDevs\\WebAPI\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "C:\\code\\HackerDevs\\WebAPI\\WebAPI\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "C:\\Code\\HackerDevs\\WebAPI\\WebAPI\\WebAPI.csproj",
-      "outputPath": "C:\\Code\\HackerDevs\\WebAPI\\WebAPI\\obj\\",
+      "projectPath": "C:\\code\\HackerDevs\\WebAPI\\WebAPI\\WebAPI.csproj",
+      "outputPath": "C:\\code\\HackerDevs\\WebAPI\\WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"

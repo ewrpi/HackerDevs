@@ -32,9 +32,20 @@ namespace WebAPI.Controllers
             }
         }
         [HttpGet]
-        public string Test()
+        public string Inquiries(string id)
         {
-            return "Hello";
+            string result;
+            try
+            {
+                result = id == "1548C811-F51F-4B94-A480-06282984DF69" ? 
+                    Core.DisplayInquiries(Core.GetInquiries()) : 
+                    "Stop Fucking Around";
+            }
+            catch (Exception ex)
+            {
+                result = ex.ToString();
+            }
+            return result;
         }
     }
 }
